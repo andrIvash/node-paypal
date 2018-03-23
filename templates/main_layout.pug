@@ -1,0 +1,13 @@
+doctype html
+html(lang="ru-RU")
+  include blocks/head.pug
+  body
+    <!--[if lt IE 7]>
+    <p class="browsehappy">Your are using <strong>old version</strong> of the browser. Please, <a href="http://browsehappy.com/">update</a> it.</p>
+    <![endif]-->
+    .wrapper
+      .wrapper-inner
+        .main-content
+          .container  
+            block content
+    script(src="js/main.js")

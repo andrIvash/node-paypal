@@ -1,0 +1,17 @@
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+h4 {
+  margin-bottom: 40px;
+}
+
+.link {
+  font-size: 20px;
+  color: darkgreen;
+  margin: 20px 0;
+}

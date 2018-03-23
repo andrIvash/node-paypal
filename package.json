@@ -1,0 +1,28 @@
+{
+  "name": "node-paypal-app",
+  "version": "1.0.0",
+  "description": "example app for node course task",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js ",
+    "test": "mocha --exit || true"
+  },
+  "author": "ivashchenko a.",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.11.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^4.1.0",
+    "nconf": "^0.10.0",
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4"
+  }
+}
