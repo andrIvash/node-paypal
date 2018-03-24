@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - "stable"
+cache:
+script:
+  - npm test
+deploy:
+  github_token: $h
